@@ -23,6 +23,8 @@ wsl --install
 ### jika sudah terinstall nanti akan seperti ini
 ![alt text](docs/images/image-7.png)
 
+jika tampil seperti ini masukan username, passworod yang ingin digunakan
+
 jika ingin masuk ke linux wsl yang kita punya masukan perintah ini
 ```bash
 wsl

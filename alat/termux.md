@@ -4,10 +4,11 @@
 install termux menggunakan salah satu metode ini \
 [playstore](https://play.google.com/store/apps/details?id=com.termux) \
 [F-Droid](https://f-droid.org/id/packages/com.termux/) \
-[github](https://github.com/termux/termux-app/releases) (recomended) \
+[github](https://github.com/termux/termux-app/releases) (recomended)
 
 ## github
-install in github, pilih yang [arm64](https://objects.githubusercontent.com/github-production-release-asset-2e65be/44804216/b80ab2fa-2cf5-442b-9245-a105f9ae7604?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241218T074152Z&X-Amz-Expires=300&X-Amz-Signature=056d1fbd9620b5d6f810a03030968cc2222c3721d9de08113f39abcfcdfb72b4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dtermux-app_v0.118.1%2Bgithub-debug_arm64-v8a.apk&response-content-type=application%2Fvnd.android.package-archive)
+install in github, pilih yang arm64
+![alt text](docs/images/image-8.png)
 
 lalu install aplikasinya \
 ![alt text](docs/images/image.png)
