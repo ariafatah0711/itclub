@@ -34,16 +34,13 @@ ubuntu
 
 ### error yang mungkin ditemui
 ![alt text](docs/images/image-6.png)
-- jika terdapat error seperti di atas coba ubah version nya menjadi 2, jika masih tidak bisa coba versi 1
+- jika terdapat error seperti di atas coba ubah version nya menjadi 2 dan lakukan wsl --install, jika masih tidak bisa coba versi 1
 ```bash
 wsl --set-default-version 2 
 # jika masih gagal ubah 2 jadi 1
 # dan lakukan wsl --install lagi
 ```
 
-- registrasi error 0x80004005
-  - https://github.com/microsoft/WSL/issues/10424
-- Setting up libc6:amd64 (2.37-14) ...
-  - https://github.com/microsoft/WSL/discussions/11097
-- wsl error install package *** --configure
-  - https://blog.csdn.net/dou3516/article/details/105120221 
+- [registrasi error 0x80004005](https://github.com/microsoft/WSL/issues/10424)
+- [Setting up libc6:amd64 (2.37-14) ...](https://github.com/microsoft/WSL/discussions/11097)
+- [wsl error install package *** --configure](https://blog.csdn.net/dou3516/article/details/105120221)
