@@ -3,8 +3,8 @@
 windows 10 & windows 11
 
 ## Installation
-install wsl dengan tutorial dibawah ini
-[![Install WSL 2](https://img.youtube.com/vi/eId6K8d0v6o/0.jpg)](https://youtu.be/eId6K8d0v6o)
+install wsl dengan tutorial dibawah ini \
+[![Install WSL 2](https://img.youtube.com/vi/eId6K8d0v6o/0.jpg)](https://youtu.be/eId6K8d0v6o) \
 [![SETUP WSL 2 PADA WINDOWS 11](https://img.youtube.com/vi/atu6yiy5Nl0/0.jpg)](https://youtu.be/atu6yiy5Nl0?si=wXIDAslrqt_6R5_C)
  
 ### aktifkan fitur windows subsystem linux
