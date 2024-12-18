@@ -12,7 +12,7 @@ install wsl dengan tutorial dibawah ini \
   ![alt text](docs/images/image-4.png)
 - lalu aktifkan feature Windows Subsystem For Linux 
   ![alt text](docs/images/image-5.png)
-- lakukan tunggu dan lakukan restart
+- tunggu hingga prosess selesai jika sudah kita bisa lakukan restart
 
 ### install distro yang diinginkan (recomended ubuntu)
 ```bash
