@@ -3,7 +3,7 @@
 
 smk harapan bangsa - Depok
 
-## materi
+## Material
 [pertemuan 1](./P1/readme.md) \
 [pertemuan 2](./p2/readme.md) \
 [pertemuan 3](./p3/readme.md) \
