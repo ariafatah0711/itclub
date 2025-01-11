@@ -34,6 +34,7 @@ wget https://github.com/ariafatah0711/itclub/raw/refs/heads/main/P1/pertemuan_1.
 
 # command linux dasar
 ## file management
+
 |  perintah  |                    deskripsi                    |
 |:----------:|:-----------------------------------------------:|
 |     pwd    |     Menampilkan working directory saat ini.     |
@@ -104,6 +105,7 @@ wget https://github.com/ariafatah0711/itclub/raw/refs/heads/main/P1/pertemuan_1.
 
 # Command Linux Symbol
 ## Special Characters
+
 | perintah                    | deskripsi                                                               |
 |-----------------------------|-------------------------------------------------------------------------|
 | ; (Shell Command Separator) | Menjalankan beberapa perintah secara berurutan (terlepas sukses/gagal)  |
@@ -158,6 +160,7 @@ wget https://github.com/ariafatah0711/itclub/raw/refs/heads/main/P1/pertemuan_1.
   Dalam contoh ini, perintah cat akan menggabungkan beberapa file menjadi satu file output.
 
 ## Command Linux tambahan
+
 | perintah          | deskripsi                                                                                                                |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------|
 | wget              | untuk mengunduh file dari internet melalui protokol HTTP, HTTPS, dan FTP.                                                |
