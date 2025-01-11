@@ -1,6 +1,6 @@
 # pertemuan 1
 
-Ini adalah dokumentasi IT CLUB Cyber Harbas untuk pertemuan pertama. \
+Ini adalah dokumentasi IT CLUB Cyber untuk pertemuan pertama. \
 Pada kesempatan ini, saya membuat dokumentasi agar kalian yang tidak dapat hadir tetap bisa mencoba lab yang telah saya buat. Dokumentasi ini akan memandu kalian langkah demi langkah. \
 Jika kalian tidak memiliki laptop, saya merekomendasikan untuk menggunakan Termux sebagai alternatif. Berikut adalah panduan untuk mengatur Termux agar siap digunakan. \
 Jika kalian sudah memiliki Laptop / PC dan sudah memiliki terminal seperti menggunakan VM ataupun WSL, kalian bisa langsung melewati langkah 1 dan 2.
@@ -48,6 +48,22 @@ wget https://github.com/ariafatah0711/itclub/raw/refs/heads/main/P1/pertemuan_1.
 |     mv     | Memindahkan atau mengganti nama file/direktori. |
 |     cat    |        Menampilkan isi file ke terminal.        |
 | head, tail |      Menampilkan baris awal/akhir dari file     |
+
+- Melihat Direktori Kerja Saat Ini
+  ```bash
+  pwd
+  ```
+
+  **pwd** adalah singkatan dari Print Working Directory. \
+  Perintah ini akan menampilkan path absolut dari direktori kerja saat ini.
+
+- melihat isi file di directory 
+  ```bash
+  ls
+  ls pertemuan_1
+  ```
+
+  - **ls** menampilkan daftar semua file dan direktori di lokasi kerja saat ini.
 
 - Membuat folder/direktori
   ```bash
