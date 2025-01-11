@@ -1,10 +1,9 @@
 # pertemuan 1
 
-Ini adalah dokumentasi IT CLUB Cyber Harbas untuk pertemuan pertama.
-
-Pada kesempatan ini, saya membuat dokumentasi agar kalian yang tidak dapat hadir tetap bisa mencoba lab yang telah saya buat. Dokumentasi ini akan memandu kalian langkah demi langkah.
-
-Jika kalian tidak memiliki laptop, saya merekomendasikan menggunakan Termux sebagai alternatif. Berikut adalah panduan untuk mengatur Termux agar siap digunakan.
+Ini adalah dokumentasi IT CLUB Cyber Harbas untuk pertemuan pertama. \
+Pada kesempatan ini, saya membuat dokumentasi agar kalian yang tidak dapat hadir tetap bisa mencoba lab yang telah saya buat. Dokumentasi ini akan memandu kalian langkah demi langkah. \
+Jika kalian tidak memiliki laptop, saya merekomendasikan untuk menggunakan Termux sebagai alternatif. Berikut adalah panduan untuk mengatur Termux agar siap digunakan. \
+Jika kalian sudah memiliki Termux, kalian bisa langsung melewati langkah 1 dan 2.
 
 ## 1. install termux
 Untuk memulai, kalian perlu mengunduh aplikasi Termux. Saya merekomendasikan untuk mengunduhnya melalui GitHub agar mendapatkan versi yang terpercaya:
