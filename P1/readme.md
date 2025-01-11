@@ -67,7 +67,7 @@ wget https://github.com/ariafatah0711/itclub/raw/refs/heads/main/P1/pertemuan_1.
 
   Kemudian, ketik teks yang ingin disimpan ke dalam file tersebut.
   - Jika sudah selesai, tekan **Ctrl+O**, tekan **Enter**, lalu tekan **Ctrl+X** untuk keluar.
-  - atau tekan **Ctrl+z**, lalu tekan **Y** untuk menyimpan dan **Enter**, atau **N** untuk membatalkan
+  - atau tekan **Ctrl+X**, lalu tekan **Y** untuk menyimpan dan **Enter**, atau **N** untuk membatalkan
 
 - Menampilkan isi file
   ```bash
