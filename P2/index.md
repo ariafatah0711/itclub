@@ -5,6 +5,8 @@ Tujuan utama dari pertemuan ini adalah memperkenalkan konsep CTF dan memberikan 
 Bagi kalian yang tidak dapat hadir secara langsung, dokumentasi ini akan memandu langkah demi langkah untuk memulai dan menyelesaikan tantangan awal di OverTheWire. \
 Jika kalian belum memiliki laptop, jangan khawatir! Kalian dapat menggunakan Termux sebagai alternatif.
 
+untuk teori dari ppt sebelumnya bisa dilihat disini[introduce ctf](./introduce.md)
+
 bagi yang tidak memiliki laptop disarankan menggunakan termux ntuk installasinya ikuti tutorial ini di langkah 1-2 [disini](../P1)
 
 ## 1. install ssh
