@@ -5,7 +5,7 @@ Pada kesempatan ini, saya membuat dokumentasi agar kalian yang tidak dapat hadir
 Jika kalian tidak memiliki laptop, saya merekomendasikan untuk menggunakan Termux sebagai alternatif. Berikut adalah panduan untuk mengatur Termux agar siap digunakan. \
 Jika kalian sudah memiliki Laptop / PC dan sudah memiliki terminal seperti menggunakan VM ataupun WSL, kalian bisa langsung melewati langkah 1 dan 2.
 
-untuk teori dari ppt sebelumnya bisa dilihat disini[introduce cyber security](./introduce.md)
+untuk teori dari ppt sebelumnya bisa dilihat disini [introduce cyber security](./introduce.md)
 
 ## 1. install termux
 Untuk memulai, kalian perlu mengunduh aplikasi Termux. Saya merekomendasikan untuk mengunduhnya melalui GitHub agar mendapatkan versi yang terpercaya:

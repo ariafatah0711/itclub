@@ -6,7 +6,7 @@
 ```
 
 ## Prinsi Cyber Scurity
-<img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/66a372b4a3d814c4fc284041_63fdd44daa2d3e1f527b40e7_CIA%2520Triad.jpeg" height="180" width="250" alt="CIA Triangle"></img>
+<img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/66a372b4a3d814c4fc284041_63fdd44daa2d3e1f527b40e7_CIA%2520Triad.jpeg" height="180" width="250" alt="CIA Triangle">
 <p>
     CIA Triangle adalah model dasar dalam keamanan informasi yang memastikan perlindungan data.
 </p>
@@ -18,7 +18,7 @@
 </ul>
 
 ## Hacker
-<img src="https://blob.cloudcomputing.id/images/9bdd42f5-25f6-478c-89ea-7390ef5b9b07/ilustrasi-hacker-2-l-min.jpg" height="180" width="250" alt="Hacker"></img>
+<img src="https://blob.cloudcomputing.id/images/9bdd42f5-25f6-478c-89ea-7390ef5b9b07/ilustrasi-hacker-2-l-min.jpg" height="180" width="250" alt="Hacker">
 <p>
 seorang ahli komputer yang terampil dengan pengetahuan<br>
 teknis yang mendalam tentang sistem dan jaringan komputer.
@@ -58,13 +58,13 @@ teknis yang mendalam tentang sistem dan jaringan komputer.
 </ol>
 
 ## Penetration Testing (Pentest)
-<img src="https://computerone.com.au/wp-content/uploads/2020/02/Penetration-Testing-Main.jpg" height="180" width="250" alt="Pentester"></img>
+<img src="https://computerone.com.au/wp-content/uploads/2020/02/Penetration-Testing-Main.jpg" height="180" width="250" alt="Pentester">
 <p>
     proses mengidentifikasi potensi kerentanan keamanan pada perangkat lunak, sistem, dan infrastruktur TI organisasi dengan mensimulasikan serangan siber di dunia nyata.
 </p>
 
 <h4>Macam-Macam Pentester</h4>
-<img src="https://images.javatpoint.com/tutorial/software-testing/images/greybox-testing.png" height="180" width="450" alt="Pentester"></img>
+<img src="https://images.javatpoint.com/tutorial/software-testing/images/greybox-testing.png" height="180" width="450" alt="Pentester">
 <ol>
     <li>White Box, melakukan pengujian diberikan informasi dan wewenang yang komprehensif tentang sistem.</li>
     <li>Black Box, melakukan pengujian tanpa pengetahuan sebelumnya tentang sistem.</li>
