@@ -1,4 +1,4 @@
-# pertemuan 1
+# pertemuan 2
 
 Selamat datang di pertemuan kedua IT CLUB Cyber! Pada sesi ini, kita akan menjelajahi dunia Capture The Flag (CTF) dengan fokus pada platform OverTheWire. \
 Tujuan utama dari pertemuan ini adalah memperkenalkan konsep CTF dan memberikan panduan praktis agar kalian dapat mencoba sendiri tantangan-tantangan yang tersedia di OverTheWire. \
