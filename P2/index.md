@@ -63,18 +63,18 @@ yum install openssh
 
 ## 4. data for pass
 
-|   Level   | Username |             Password             |
-|:---------:|:--------:|:--------------------------------:|
-| Bandit 0  | bandit0  | bandit0                          |
-| Bandit 1  | bandit1  | ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If |
-| Bandit 2  | bandit2  | 263JGJPfgU6LtdEvgfWU1XP5yac29mFx |
-| Bandit 3  | bandit3  | MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx |
-| Bandit 4  | bandit4  | 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ |
-| Bandit 5  | bandit5  | 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw |
-| Bandit 6  | bandit6  | HWasnPhtq9AVKe0dmk45nxy20cvUa6EG |
-| Bandit 7  | bandit7  | morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj |
-| Bandit 8  | bandit8  | dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc |
-| Bandit 9  | bandit9  | 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM |
-| Bandit 10 | bandit10 | FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey |
-| Bandit 11 | bandit11 | dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr |
-| Bandit 12 | bandit12 | 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 |
+| Password |                                  |
+|:--------:|----------------------------------|
+|  bandit0 |              bandit0             |
+|  bandit1 | ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If |
+|  bandit2 | 263JGJPfgU6LtdEvgfWU1XP5yac29mFx |
+|  bandit3 | MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx |
+|  bandit4 | 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ |
+|  bandit5 | 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw |
+|  bandit6 | HWasnPhtq9AVKe0dmk45nxy20cvUa6EG |
+|  bandit7 | morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj |
+|  bandit8 | dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc |
+|  bandit9 | 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM |
+| bandit10 | FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey |
+| bandit11 | dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr |
+| bandit12 | 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 |
