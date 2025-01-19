@@ -48,18 +48,18 @@ yum install openssh
    - Gunakan perintah dasar Linux seperti ls, cd, cat, dan lainnya.
 
 ## 3. solve the overthewire bandit
-[bandit level 01](./bandit/level%2001.html) \
-[bandit level 02](./bandit/level%2002.html) \
-[bandit level 03](./bandit/level%2003.html) \
-[bandit level 04](./bandit/level%2004.html) \
-[bandit level 05](./bandit/level%2005.html) \
-[bandit level 06](./bandit/level%2006.html) \
-[bandit level 07](./bandit/level%2007.html) \
-[bandit level 08](./bandit/level%2008.html) \
-[bandit level 09](./bandit/level%2009.html) \
-[bandit level 10](./bandit/level%2010.html) \
-[bandit level 11](./bandit/level%2011.html) \
-[bandit level 12](./bandit/level%2012.html)
+- [bandit level 01](./bandit/level%2001.html)
+- [bandit level 02](./bandit/level%2002.html)
+- [bandit level 03](./bandit/level%2003.html)
+- [bandit level 04](./bandit/level%2004.html)
+- [bandit level 05](./bandit/level%2005.html)
+- [bandit level 06](./bandit/level%2006.html)
+- [bandit level 07](./bandit/level%2007.html)
+- [bandit level 08](./bandit/level%2008.html)
+- [bandit level 09](./bandit/level%2009.html)
+- [bandit level 10](./bandit/level%2010.html)
+- [bandit level 11](./bandit/level%2011.html)
+- [bandit level 12](./bandit/level%2012.html)
 
 ## 4. data for pass
 
