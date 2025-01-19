@@ -1,0 +1,96 @@
+<style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .page-link {
+        display: inline-block;
+        padding: 10px 15px;
+        /* margin: 0 5px; */
+        text-decoration: none;
+        color: #007bff;
+        /* border: 1px solid #ddd; */
+        /* border-radius: 5px; */
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .page-link:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .page-link.disabled {
+        color: #ccc;
+        pointer-events: none;
+    }
+
+    .page-link.current {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .page-link:active {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+    .page-link.prev,
+    .page-link.next {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .page-link.prev:hover,
+    .page-link.next:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+</style>
+
+<div class="pagination">
+    {% assign total_levels = site.pages | where: "layout", "level" | size %}
+    <!-- {% assign total_levels = 50 %} -->
+    {% assign current_level = page.level %} <!-- Level sekarang -->
+    {% assign max_display = 5 %} <!-- Maksimal angka yang ditampilkan -->
+
+    {% assign start_page = current_level | minus: 2 %}
+    {% assign end_page = current_level | plus: 2 %}
+
+    {% if current_level > 1 %}
+    <!-- Format level sebelumnya dengan dua digit -->
+    {% assign new_level = current_level | minus: 1 %}
+    {% if new_level < 10 %} {% assign page_name="0" | append: new_level %} {% else %} {% assign page_name=new_level %}
+        {% endif %} <a href="./{{ page.name_file }} {{ page_name }}.html" class="page-link">‹</a>
+        {% else %}
+        <span class="page-link disabled">‹</span>
+        {% endif %}
+
+        {% if start_page < 1 %} {% assign start_page=1 %} {% assign end_page=max_display %} {% endif %} {% if end_page>
+            total_levels %}
+            {% assign end_page = total_levels %}
+            {% assign start_page = end_page | minus: max_display | plus: 1 %}
+            {% if start_page < 1 %} {% assign start_page=1 %} {% endif %} {% endif %} {% for i in (start_page..end_page)
+                %} {% assign page_name=i %} {% if i < 10 %} {% assign page_name="0" | append: i %} {% endif %} <!--
+                Format level halaman dengan dua digit -->
+                {% if i == current_level %}
+                <span class="page-link current">{{ page_name }}</span>
+                {% else %}
+                <a href="./{{ page.name_file }} {{ page_name }}.html" class="page-link">{{ page_name }}</a>
+                {% endif %}
+                {% endfor %}
+
+                {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
+                    {% assign new_level = current_level | plus: 1 %}
+                    {% if new_level < 10 %} {% assign page_name="0" | append: new_level %} {% else %} {% assign
+                        page_name=new_level %} {% endif %} <a href="./{{ page.name_file }} {{ page_name }}.html"
+                        class="page-link">›</a>
+                        {% else %}
+                        <span class="page-link disabled">›</span>
+                        {% endif %}
+</div>
