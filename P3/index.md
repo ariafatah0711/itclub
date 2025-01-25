@@ -200,8 +200,8 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
 # Challenge / Soal
 Pada pertemuan sebelumnya, terdapat beberapa soal yang bisa kalian coba untuk memperdalam pemahaman. Jika kalian tertarik untuk mencobanya, silakan kunjungi tautan berikut:
 
-- [soal](soal.md)
+- [soal](./soal.html)
 
 Setelah menyelesaikan soal-soal tersebut, kalian juga bisa mengecek jawaban di tautan berikut:
 
-- [jawaban](jawaban)
+- [jawaban](./jawaban.html)

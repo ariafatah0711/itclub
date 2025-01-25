@@ -78,4 +78,4 @@
     <p></p>
    </details>
 
-Jika mengalami kesulitan, kalian dapat melihat solusinya di sini: [jawaban](jawaban.md)
+Jika mengalami kesulitan, kalian dapat melihat solusinya di sini: [jawaban](./jawaban.html)
