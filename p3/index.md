@@ -12,7 +12,7 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
 4. Post-Exploitation:
 5. Reporting:
 
-## Information Gathering
+## A. Information Gathering
 - information gathering merupakan Pengumpulan informasi sebanyak-banyak nya ke target dengan tujuan menemukan salah satu atau lebih kerentananan yang ada di dalam target.
 - Teknik information gathering disebut juga dengan **reconnaissance** atau pengintaian. 
 
@@ -58,7 +58,7 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
 - Menyusun Strategi Penetrasi
 
 ---
-# Vulnerability Analysis
+# B. Vulnerability Analysis
 - Vulnerability Analysis merupakan Menganalisis informasi yang telah dikumpulkan untuk mengidentifikasi kelemahan atau kerentanan pada sistem, jaringan, aplikasi, atau infrastruktur yang dapat dieksploitasi oleh penyerang.
 - ini merupakan tahap selanjutnya setelah Information Gathering.
 
@@ -149,6 +149,7 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
   nslookup -type=A tryhackme.com
   ```
 - table dns
+
   | Query type |       Result       |
   |:----------:|:------------------:|
   | A          | IPv4 Addresses     |
@@ -166,8 +167,6 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
   dig @1.1.1.1 tryhackme.com
   ```
 
-
-
 ## Tools - tools recon aktif
 ### Nmap
 - Nmap diciptakan oleh Gordon Lyon (Fyodor), seorang ahli keamanan jaringan dan pemrogram sumber terbuka. 
@@ -175,6 +174,7 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
 - Nmap adalah alat standar industri untuk memetakan jaringan, mengidentifikasi host langsung, dan menemukan layanan yang berjalan.
 
 ## summary recon pasif
+
 |               Purpose               |           Command Line Example          |
 |:-----------------------------------:|:---------------------------------------:|
 | Lookup WHOIS record                 | whois tryhackme.com                     |
@@ -186,6 +186,7 @@ Proses pentest umumnya terdiri dari beberapa tahapan utama, yaitu:
 | Lookup DNS TXT records              | dig tryhackme.com TXT                   |
 
 ## summary recon aktif
+
 |      Command     |                 Example                 |
 |:----------------:|:---------------------------------------:|
 | ping             | ping -c 10 MACHINE_IP on Linux or macOS |
