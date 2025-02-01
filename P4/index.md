@@ -2,7 +2,7 @@
 
 Selamat datang di pertemuan keempat sekaligus **pertemuan terakhir dalam materi Cyber Security** di **IT CLUB Cyber**! 🎉  \
 Pada sesi ini, kita akan membahas salah satu tahap paling seru dalam **penetration testing**, yaitu **Exploitation**.  \
-Eksploitasi adalah proses memanfaatkan kelemahan yang ditemukan pada sistem untuk mendapatkan akses yang lebih dalam. Di dunia pentesting, tahap ini adalah kunci untuk memahami bagaimana serangan bekerja dan bagaimana kita bisa melindungi sistem dari ancaman nyata.  \
+Eksploitasi adalah proses memanfaatkan kelemahan yang ditemukan pada sistem untuk mendapatkan akses yang lebih dalam. Di dunia pentesting, tahap ini adalah kunci untuk memahami bagaimana serangan bekerja dan bagaimana kita bisa melindungi sistem dari ancaman nyata.
 
 ## 🔹 Apa yang Akan Kita Pelajari?
 - Mengenal konsep dasar **Exploitation** dalam keamanan siber.
@@ -139,12 +139,12 @@ sudo apt update && sudo apt install openvpn -y
 ## information gathering
 - **Check the Open Ports** \
 Langkah pertama adalah memeriksa port yang terbuka pada target dengan menggunakan alat seperti nmap. Berikut adalah hasil dari pemindaian port:
-![alt text](docs/images/image.png)
+  ![alt text](docs/images/image.png)
 - **Check the Versions and Vulnerabilities** \
 Setelah mengetahui port yang terbuka, langkah berikutnya adalah memeriksa versi layanan yang berjalan pada port tersebut untuk mencari potensi **CVE (Common Vulnerabilities and Exposures)** atau kerentanannya.
 - **Directory Discovery (Finding Hidden Directories and Files)** \
 Langkah berikutnya adalah mencari direktori atau file yang tersembunyi pada server menggunakan tools seperti gobuster, dirsearch, atau dirbuster. Hal ini membantu untuk menemukan area tersembunyi yang mungkin memiliki potensi kerentanannya.
-![alt text](docs/images/image-1.png)
+  ![alt text](docs/images/image-1.png)
   - **Explore the Found Directories** \
     Setelah menemukan direktori yang menarik, kamu bisa mencoba untuk mengaksesnya secara manual melalui browser atau menggunakan tools seperti curl untuk mengeksplorasi lebih lanjut. Di tahap ini, kamu akan mencari potensi untuk melakukan exploitation atau privilege escalation.
     ![alt text](docs/images/image-2.png)
@@ -169,7 +169,7 @@ Web shell upload adalah tindakan meng-upload file berbahaya (umumnya skrip PHP, 
     ```bash
     nc -lvnp 9001
     ```
-    Perintah di atas akan membuat server mendengarkan pada port 9001.
+    Perintah di atas akan membuat server mendengarkan pada port 9001. \
     ![alt text](docs/images/image-6.png)
   - **Upload Web Shell ke Server**: Jika server yang kamu tuju rentan terhadap upload file, kamu dapat meng-upload file PHP yang telah dimodifikasi tersebut melalui mekanisme upload file yang ada di aplikasi web target (seperti form upload file atau eksploitasi file upload yang lemah).
     ![alt text](docs/images/image-7.png)
@@ -179,10 +179,10 @@ Web shell upload adalah tindakan meng-upload file berbahaya (umumnya skrip PHP, 
     ![alt text](docs/images/image-9.png)
   - **Eksekusi Web Shell**: Setelah file di-upload dan dieksekusi di server target, shell akan mencoba menghubungi IP dan port yang telah kamu tentukan. Jika semuanya berhasil, kamu akan mendapatkan akses ke shell server yang dapat digunakan untuk menjalankan perintah.
     - php2 berhasil upload, namun RCE gagal:
-    ![alt text](docs/images/image-10.png)
+      ![alt text](docs/images/image-10.png)
     - php5 berhasil upload dan RCE berhasil:
-    ![alt text](docs/images/image-11.png)
-    Jika kamu ingin memulai listener atau melakukan reverse shell, pastikan untuk membuka file PHP-nya terlebih dahulu agar backdoor dapat berjalan dengan baik.
+      ![alt text](docs/images/image-11.png)
+      Jika kamu ingin memulai listener atau melakukan reverse shell, pastikan untuk membuka file PHP-nya terlebih dahulu agar backdoor dapat berjalan dengan baik.
 
 ## post exploit
 Setelah berhasil mendapatkan akses ke server melalui web shell, langkah selanjutnya adalah mengoptimalkan akses yang telah diperoleh untuk mendapatkan kontrol lebih dalam terhadap sistem target. Berikut beberapa langkah yang dapat dilakukan dalam tahap post exploit: \
@@ -190,8 +190,8 @@ Setelah berhasil mendapatkan akses ke server melalui web shell, langkah selanjut
   ![alt text](docs/images/image-12.png)
   ![alt text](docs/images/image-16.png)
 - **Mencari SUID, SUDO, dan Akses Privilege Lainnya**
-  - **Mencari File SUID (Set User ID)** File yang memiliki bit SUID memungkinkan eksekusi file dengan hak akses pemiliknya, yang seringkali bisa digunakan untuk eskalasi hak akses (privilege escalation). Untuk mencari file SUID di sistem.
-  ![alt text](docs/images/image-13.png)
+  - **Mencari File SUID (Set User ID)** File yang memiliki bit SUID memungkinkan eksekusi file dengan hak akses pemiliknya, yang seringkali bisa digunakan untuk eskalasi hak akses (privilege escalation).  Untuk mencari file SUID di sistem.
+    ![alt text](docs/images/image-13.png)
   - **Mencari Sudoers yang Bisa Dijalankan Tanpa Password**: Jika akun yang kamu gunakan memiliki akses sudo, kamu dapat mencari tahu perintah-perintah apa yang bisa dijalankan tanpa memerlukan password. Gunakan perintah berikut untuk melihat hak akses sudo:
 - **Lakukan Eksploitasi jika Sudah Ditemukan**
   Jika kamu menemukan file dengan bit SUID atau perintah yang bisa dijalankan tanpa password, kamu dapat melanjutkan dengan eksploitasi untuk meningkatkan hak akses dan mendapatkan kontrol lebih besar di sistem target.
